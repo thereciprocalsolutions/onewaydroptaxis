@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="description" content="Intercity Taxi">
+		<meta name="author" content="thereciprocalsolutions">
+		<title>Intercity Taxi</title>
+		<link rel="shortcut icon" href="C:\Users\imkav\Downloads\Yellow and Black Vintage Beauty Logo.png">
+
+		<!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/6ae9c28fc7.js"></script>
+	</head>
+
+	<body>    
+
+
+        <!-- Header start -->
+        <header class="header">
+            <div class="top-bar">
+                <div class="container">
+                    <ul class="social-links">
+                        <li><a href="http://facebook.com">Facebook</a></li>
+                        <li><a href="http://twitter.com">Twitter</a></li>
+                        <li><a href="http://instagram.com">Instagram</a></li>
+                    </ul>
+                    <button id="phone-trigger" class="phone-trigger ion-android-call"></button>
+                    <ul class="phones">
+                        <li><a href="tel:91-85250-45882"><span>Anbu</span> +91-85250-45882</a></li>
+                        <!--  <li><a href="tel:1-800-200-300"><span>Garage</span> 1-800-200-300</a></li>
+                          <li><a href="tel:1-800-200-300"><span>Contact</span> 1-800-200-300</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div id="nav-bar" class="nav-bar">
+                <div class="container">
+                    <a href="index.html" class="logo"><img src="images/logo1.png" alt="Taxi Grabber - HTML Template" /></a>
+                    <button id="nav-trigger" class="nav-trigger ion-android-menu"></button>
+                    <nav class="main-nav">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#book">Booking</a></li>
+                            <li><a href="#tariff">Tariff</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#cars">Cars</a></li>
+                            <li><a href="#contact">contact</a></li>
+                           
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+          
+
+        </header>
+        <!-- Header end -->
+
+    <!-- Content start -->
+		<div class="content">
+			<!-- Slider start -->
+			<div class="slider owl-carousel">
+				<div class="slide">
+					<img src="images/car5.jpg" alt="" class="slider-image" />
+					<div class="slider-subtitle">Call us 24/7</div>
+					<div class="slider-title">+91 85250-45882</div>
+					<div class="slider-button"><a href="about.html" class="btn btn-primary">Read more about us</a></div>
+				</div>
+				<div class="slide">
+					<img src="images/car2.jpg" alt="" class="slider-image" />
+					<div class="slider-subtitle">Only high qualified</div>
+					<div class="slider-title">Chauffers</div>
+					<div class="slider-button"><a href="drivers.html" class="btn btn-primary">Check out our drivers</a></div>
+				</div>
+				<div class="slide">
+					<img src="images/car6.jpg" alt="" class="slider-image" />
+					<div class="slider-subtitle">Our offer includes</div>
+					<div class="slider-title">Services</div>
+					<div class="slider-button"><a href="services.html" class="btn btn-primary">How can we help</a></div>
+				</div>
+			</div>
+    </section>
+    <a href="tel:+91 9944942223" class="float1" target="_blank">
+      <i class="fa fa-phone my-float1"></i>
+      </a>
+
+  <a href="https://api.whatsapp.com/send?phone=+9187781 44212&text=Hello Intercity Riders" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+		
+			 <!-- Booking start  -->
+<section id="book">
+			<section class="booking">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Book taxi online</h2>
+								<h6>Save time &amp; money</h6>
+							</div>
+						</div>
+					</div>
+					<form class="booking-form">
+						<div class="row">
+							<!--div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="econo" />
+									<label for="econo"><i class="icon-car-econo"></i>Economy</label>
+								</fieldset>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="classic" />
+									<label for="classic"><i class="icon-car-classic"></i>Classic</label>
+								</fieldset>
+							</div>
+							
+							<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="suv" />
+									<label for="suv"><i class="icon-car-suv"></i>SUV</label>
+								</fieldset>
+							</div>
+						<!-- 	<div class="col-xs-6 col-sm-2">
+								<fieldset class="car-type">
+									<input type="checkbox" name="car-type" id="limousine" />
+									<label for="limousine"><i class="icon-car-limo"></i>Limousine</label>
+								</fieldset>
+							</div> -->
+            </div>
+            
+						<div class="row">
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="name" placeholder="Name" />
+								</fieldset>
+								<fieldset>
+									<input type="email" name="email" placeholder="Email" />
+								</fieldset>
+							</div>
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="from" placeholder="From" />
+								</fieldset>
+								<fieldset>
+									<input type="text" name="to" placeholder="To" />
+								</fieldset>
+							</div>
+							<div class="col-sm-3">
+								<fieldset>
+									<input type="text" name="date" placeholder="Date" class="datepicker" />
+								</fieldset>
+								<fieldset>
+									<input type="text" name="time" placeholder="Time" class="timepicker" />
+								</fieldset>
+							</div>
+						<!-- 	<div class="col-sm-3">
+								<fieldset>
+									<select name="cars">
+										<option>Cars</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+									</select>
+								</fieldset>
+								<fieldset>
+									<select name="passengers">
+										<option>Passengers</option>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+										<option>11</option>
+										<option>12</option>
+										<option>13</option>
+										<option>14</option>
+										<option>15</option>
+										<option>16</option>
+									</select>
+								</fieldset>
+							</div> -->
+						</div>
+						<div class="row">
+							<div class="col-sm-9  ">
+								<fieldset>
+									<textarea name="message" placeholder="Message"></textarea>
+								</fieldset>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 text-center">
+								<button class="btn btn-primary">Book Now</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section> 
+			<!-- Booking end -->
+    </section>
+      <!-- Price start -->
+      <section id="tariff">
+			<section class="alt prices">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Prices</h2>
+								<h6>No hidden charges</h6>
+							</div>
+							<div class="info show-mobile">
+                <p><strong>This Price Excludes Toll Charges and Driver Beta</strong></p>
+							</div>
+							<div class="responsive-table">
+								<table class="price-table">
+									<thead>
+										<tr>
+											<th>PRICE/KM</th>
+											<th><i class="icon-car-classic"></i>Sedan</th>
+                      <th><i class="icon-car-suv"></i>SUV</th>
+                      <th><i class="icon-car-minivan"></i>Traveller</th>
+
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>One Way</th>
+											<td>₹12</td>
+											<td>₹17</td>
+											<td>₹18</td>
+									
+											
+										</tr>
+                      <tr>
+                        <th>Round Trip</th>
+                        <td>₹10</td>
+                        <td>₹13</td>
+                        <td>₹16</td>
+                       
+                      </tr>
+                      <tr>
+                        <th>Airport Pickup</th>
+                        <td>₹12</td>
+                        <td>₹16</td>
+                        <td>₹18</td>
+                        
+                        
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      
+									</tfoot>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<a href="#book" class="btn btn-primary">Book Now!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Price end -->
+    </section>
+    <section id="service">
+			<!-- Why Choose Us start -->
+			<section class="why">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>What we offer?</h2>
+								<h6>Best one way drop taxi services in Tamilnadu</h6>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-road-pin"></i>
+								<p><strong>One Way Taxi</strong><br>
+									No Return fare! Why need to pay more for one way taxi, We're the most trusted one way drop taxi service in TamilNadu.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-taxi-1"></i>
+								<p><strong>Round Trip</strong><br>
+									Your pick-up address can be anywhere in pick-up city and drop address can be anywhere in destination city including Airport.</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="service">
+								<i class="icon-airplane-1"></i>
+								<p><strong>Airport Taxi</strong><br>
+									Be it welcoming your friend at the airport right on time or any emergency situation where you have to leave at the moment.</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<a href="#book" class="btn btn-primary">Book Now!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Why Choose Us end -->
+	</section>
+	<section id="service">
+		<!-- Why Choose Us start -->
+		<section class="why">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="title">
+							<h2>Why choose us</h2>
+							<h6>Best services in the city</h6>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="service">
+							<i class="icon-credit-card"></i>
+							<p><strong>Economic price</strong><br>
+						We are providing the best service with an affordable price unlike anywhere else.But we never compromise on our professionalism anywhere anytime.</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service">
+							<i class="icon-car-check"></i>
+							<p><strong>24x7 service</strong><br>
+						Be it welcoming your friend at the airport right on time or any an emergency situation where you have to leave at the moment, we're here.</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service">
+							<i class="icon-shield-2"></i>
+							<p><strong>Completely safe</strong><br>
+								When you book our service, we provide you safety option such as GPS tracking which is in our vehicles to track the location anytime, anywhere.</p>
+						</div>
+					</div>
+				
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<a href="#book" class="btn btn-primary">Book Now!</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		</section>
+			<!-- Testimonials start -->
+			<!-- <section class="testimonials">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h2>Testimonials</h2>
+								<h6>Customer reviews</h6>
+							</div>
+							<div class="owl-carousel">
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi grabber is exactly what our business has been lacking. Great job, I will definitely be ordering again! Not able to tell you how happy I am with taxi grabber. If you aren’t sure, always go for taxi grabber.
+										<footer>Amanda Reacher, Global Investements</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi Grabber is the most valuable business resource we have EVER purchased. I couldn't have asked for more than this. After using Taxi Grabber my business skyrocketed!
+										<footer>Robert Bartlett, Buena Vista Garden Maintenance</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Keep up the excellent work. I would like to personally thank you for your outstanding product. I strongly recommend Taxi Grabber to everyone interested in running a successful business! Not able to tell you how happy I am with Taxi Grabber.
+										<footer>Dolores Garza, Audio Aid</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Taxi Grabber is the next killer theme. This is simply unbelievable! Man, this thing is getting better and better as I learn more about it. Taxi Grabber is exactly what our business has been lacking.
+										<footer>Louis Rush, Access Asia</footer>
+									</blockquote>
+								</div>
+								<div>
+									<img src="http://placehold.it/120x120" alt="" class="person" />
+									<blockquote>
+										Definitely worth the investment. I wish I would have thought of it first. Taxi Grabber impressed me on multiple levels.
+										<footer>Florence Schilling, Sunburst Garden Management</footer>
+									</blockquote>
+								</div>
+							</div>
+							<a href="testimonials.html" class="btn btn-secondary">Read all testimonials</a>
+						</div>
+					</div>
+				</div>
+			</section> -->
+      <!-- Testimonials end -->
+    <!-- Cars list start -->
+<section id="cars">
+    <div class="content">
+
+			<!-- Main start -->
+			<section class="intro">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title">
+								<h1>Cars</h1>
+								<h6>See what we drive</h6>
+							</div>
+							<p class="text-center">We offer car hire services with seating capacity ranging from 4 to 40 passengers. Not only this, but we also provide both one way outstation cabs as well as round trip taxi rental options. You can also book a cab for hourly rental, airport transfers, corporate travel, employee transportation, weekend, honeymoon package tours and much more</p>
+							<hr class="blank">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<ul class="cars inline three-columns">
+								<li>
+									<img src="images/car2.jpg" alt="">
+									<h6>Sedan</h6>
+									<p>12/km, 4 Seater, Toll Tax Excludes</p>
+								</li>
+								<li>
+									<img src="images/car5.jpg" alt="" >
+									<h6>SUV</h6>
+									<p>17/km, 7 Seater, Toll Tax Excludes</p>
+								</li>
+								<li>
+									<img src="images/car6.jpg" alt="">
+									<h6>Traveller</h6>
+									<p>16/km, 15 Seater, Toll Tax Excludes</p>
+								</li>
+                <!-- <li>
+									<img src="https://trak.in/wp-content/uploads/2018/05/Tata-Indica-Banner.jpg" alt="">
+									<h6>2015 Range Rover Evoque</h6>
+									<p>2.9 L Petrol, 240 BHP, 4 passengers</p>
+                </li> -->
+                
+							
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<a href="#book" class="btn btn-primary">Book Now!</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Main end -->
+    </section>
+
+
+      <!-- Promo start -->
+      <section id="contact">
+			<section class="promo">
+				<img src="https://images.unsplash.com/photo-1490650404312-a2175yJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+				<div class="tint from-left"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-5">
+							<hgroup>
+								<h3>Contact </h3>
+								<h6>How you can reach us</h6>
+							</hgroup>
+							<p>If you are looking for the best one way drop taxi service in Tamilnadu, You are in the Right place! Don't hesitate to contact us Just click any of the button, You're always right.
+							</p>
+							<a href="tel:91-85250-45882" class="btn btn-secondary">Call Us</a>
+							<a href="mailto:onewaydroptaxisofficial@gmail.com" class="btn btn-secondary">Mail Us</a>
+							<a href="#book" class="btn btn-secondary">Book Now</a>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Promo end -->
+    </section>
+    </div>
+    <!-- Cars list end -->
+
+		</div>
+		<!-- Content end -->
+
+		<!-- Footer start -->
+		<footer class="footer">
+
+		
+
+			<div class="widgets">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<div class="widget">
+								<h6>About us</h6>
+								<p>One way drop taxis one way car hire packages are designed in such a way, so user could avail more benefits by just paying one way drop off charges. We also offers good one way car rental deals on every trip. So why to wait more, hurry up, you are just few step away to grab this deal. Book the Cab right now</p>
+							
+								<a href="#book" class="btn btn-secondary">Book Now</a>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="widget">
+								<h6>Quick links</h6>
+								<ul class="quick-links">
+									<li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#book">Booking</a></li>
+                            <li><a href="#tariff">Tariff</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#cars">Cars</a></li>
+                            <li><a href="#contact">contact</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="widget">
+								<h6>Contact</h6>
+								<ul class="contact">
+									<li class="phone"><a href="tel:212-647-0772">212-647-0772</a></li>
+									<li class="email"><a href="mailto:info@taxigrabber.biz">info@taxigrabber.biz</a></li>
+									<li class="address">4603 Oakwood Avenue<br>New York, 1001</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="credits">
+				<div class="container">
+					<div class="copyright"> Designed by <a href="http://thereciprocalsolutions.com">The Reciprocal Solutions</a></div>
+					<ul class="social-links">
+						<li><a href="htp://facebook.com">Facebook</a></li>
+						<li><a href="htp://twitter.com">Twitter</a></li>
+						<li><a href="htp://instagram.com">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer end -->
+
+		<!-- Javascripts start -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/picker.js"></script>
+		<script src="js/picker.date.js"></script>
+		<script src="js/picker.time.js"></script>
+		<script src="js/uber-google-maps.js"></script>
+		<script src="js/settings.js"></script>
+		<!-- Javascripts end -->
+
+	</body>
+
+	</html>
