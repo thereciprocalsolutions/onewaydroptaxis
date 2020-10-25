@@ -1,23 +1,8 @@
-/*
-Theme Name: Taxi Grabber
-Description: WordPress theme for taxi corporations
-Author: coffeecream
-Theme URI: http://themeforest.net/user/coffeecream/portfolio
-Author URI: http://themeforest.net/user/coffeecream
-Version: 1.0
-License: ThemeForest Regular License
-License URI: http://themeforest.net/licenses/regular
-*/
-
-/* Stylesheet imports
-===============================================================*/
-
 @import "bootstrap.css";
 @import "ionicons.css";
 @import "icomoon.css";
 @import "owl.carousel.css";
 @import "uber-google-maps.css";
-@import url(http://fonts.googleapis.com/css?family=Oswald:700|Roboto:300,300i,400,700);
 
 /*===============================================================
 
@@ -115,13 +100,12 @@ html {
 }
 
 body {
-
-  background: #86DFFF;
-background: -webkit-radial-gradient(center, #86DFFF, #CFF6FF);
-background: -moz-radial-gradient(center, #86DFFF, #CFF6FF);
-background: radial-gradient(ellipse at center, #86DFFF, #CFF6FF);
+  background: #86dfff;
+  background: -webkit-radial-gradient(center, #86dfff, #cff6ff);
+  background: -moz-radial-gradient(center, #86dfff, #cff6ff);
+  background: radial-gradient(ellipse at center, #86dfff, #cff6ff);
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Trispace", sans-serif;
   font-size: 16px;
   line-height: 1.75em;
   margin: 0;
@@ -170,18 +154,16 @@ background: radial-gradient(ellipse at center, #86DFFF, #CFF6FF);
 #landing-content {
   height: 83vh;
   width: 100%;
-  background:url("/images/bg3.jpg");
-  background-position:center center;
+  background: url("/images/bg3.jpg");
+  background-position: center center;
   position: relative;
   background-size: cover;
-  padding-bottom:5em;
+  padding-bottom: 5em;
 }
 
 .mypadding {
   padding: 40px 0;
 }
-
-
 
 ::selection {
   background: #ffeb99;
@@ -205,7 +187,7 @@ h4,
 h5,
 h6 {
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-weight: bold;
   margin: 0 0 1em;
   text-transform: uppercase;
@@ -283,7 +265,7 @@ a:hover {
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-size: 1em;
   line-height: 1;
   padding: 1em 1.5em;
@@ -490,7 +472,7 @@ textarea {
   border-radius: 3px;
   color: #888888;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Trispace', sans-serif;
   height: 4em;
   padding: 0 1em;
   width: 100%;
@@ -549,7 +531,7 @@ td {
 
 th {
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   text-align: left;
   text-transform: uppercase;
 }
@@ -727,7 +709,7 @@ q footer:before {
 .main-nav ul li a:visited {
   color: #000000;
   display: block;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   line-height: 80px;
   position: relative;
   text-transform: uppercase;
@@ -798,7 +780,7 @@ q footer:before {
 .main-nav ul li ul li a:focus,
 .main-nav ul li ul li a:visited {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Trispace', sans-serif;
   line-height: 1.75em;
   padding: 0.5em 1em;
   text-transform: none;
@@ -948,7 +930,7 @@ q footer:before {
 ===============================================================*/
 
 .slider {
-  font-family: "Oswald", sans-serif;
+  font-family:'Trispace', sans-serif;
   overflow: hidden;
   text-align: center;
   text-transform: uppercase;
@@ -1280,7 +1262,7 @@ q footer:before {
   background: #ffce00;
   border-radius: 3px;
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-size: 13px;
   cursor: pointer;
   height: 100px;
@@ -1317,7 +1299,7 @@ q footer:before {
   -----------------------------------------------------------*/
 
 .info {
-  background: #0ED2F7;
+  background: #0ed2f7;
   border: 1px solid #ffce00;
   border-radius: 3px;
   margin-bottom: 2em;
@@ -1387,7 +1369,7 @@ q footer:before {
   background: #ffce00;
   border-radius: 3px 3px 0 0;
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   line-height: 3em;
   position: relative;
   text-transform: uppercase;
@@ -1558,7 +1540,7 @@ q footer:before {
   border: 0;
   border-radius: 3px;
   color: #000000;
-  font-family: "Oswald", sans-serif;
+  font-family:'Trispace', sans-serif;
   line-height: 3em;
   margin: 0 5px;
   padding: 0 15px;
@@ -1925,7 +1907,7 @@ q footer:before {
 
 .promo-phone .promo-phone-title {
   color: #ffce00;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-size: 6em;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -1933,7 +1915,7 @@ q footer:before {
 
 .promo-phone .promo-phone-subtitle {
   color: #ffffff;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   font-size: 3em;
   line-height: 1.2em;
   text-transform: uppercase;
@@ -2151,7 +2133,7 @@ q footer:before {
 
 .post .post-meta {
   color: #ffce00;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Trispace', sans-serif;
   margin-bottom: 1em;
   text-transform: uppercase;
 }
