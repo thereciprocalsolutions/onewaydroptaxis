@@ -315,13 +315,15 @@ color: #ffffff;
 				var strText5 = document.getElementById("cars").value;
 				var strText6 = document.getElementById("time").value;
 				var strText7 = document.getElementById("Service").value;
+				var y = document.getElementById("ve");
 				var result = 'Customer Name:  ' + strText + '%0APhone Number: ' + strText1 + '%0AService: ' + strText7 + '%0APickup Location: ' + strText2 + '%0APickup Time: ' + strText6 + '%0APickup Date: ' + strText3 + '%0ADrop Location: ' + strText4 + '%0ACars: ' + strText5;
 				//document.getElementById('spanResult').textContent = result;
 				var finalMsg = encodeURI(result);
 				document.getElementById("bookingForm").addEventListener("submit", (e) => {
 					e.preventDefault();
-					if (strText == "" || strText1 == "" || strText2 == "" || strText3 == "" || strText4 == "" || strText5 == "" || strText6 == "" || strText7 == "") {
-						console.log('error');
+					if (strText == "" || strText1 == "" || strText2 == "" || strText3 == "" || strText4 == "" || strText5 == "" || strText6 == "" || strText7 == "" || y.style.display === "none") {
+					//if (strText == "" || strText1 == "" || strText2 == "" || strText3 == "" || strText4 == "" || strText5 == "" || strText6 == "" || strText7 == "") {
+										console.log('error');
 					} else {
 						const request = new XMLHttpRequest();
 						const url = 'https://api.telegram.org/bot1300152015:AAGEf6ysxlREZZ7z0dBTSgXiwqPISstoDOg/sendMessage?chat_id=-1001176484790&text=' + result;
@@ -329,6 +331,10 @@ color: #ffffff;
 						request.open("post", url);
 
 						request.send();
+						var wnd = window.open("https://www.fast2sms.com/dev/bulk?authorization=tXGFnAr4LNYZM8Q9jwPVHxWdvs6eahl2qk5of7SzpRbOUEumITTnoiOFHqdCLhzJPgaxer2mpZ8UNEyf&sender_id=FSTSMS&message=<--call for more details%0AYour Booking Request Processing "+result+"%0AThank For Contacting TRS&language=english&route=p&numbers="+strText1);
+										      if(wnd){
+											      setTimeout(function () { wnd.close();}, 1500);
+										      }
 						window.open('#', '_self');
 					}
 
