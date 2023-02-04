@@ -2886,3 +2886,65 @@ q footer:before {
     width: 100%;
   }
 }
+
+@media (max-width: 767px) {
+  .rainbow{
+      visibility: visible!important;
+    position:inherit;
+    right:0px;
+    left:0px; 
+    width: 100%;
+    bottom:580px;  
+     
+    padding:0px;
+    z-index:50;
+     animation: colorRotate 2.5s linear 0s infinite;
+  }
+  @keyframes colorRotate {
+    from {
+     background-color: #00d8ff;
+    }
+    10% {
+      background-color: #00ff31;
+    }
+    50% {
+      background-color: #ffce00;
+    }
+    75% {
+     background-color: #ff3333;
+    }
+    100% {
+      background-color: #ff66f3;
+    }
+      }}
+  @media (max-width: 1600px) {
+  .rainbow{
+      visibility:hidden;
+    position:inherit;
+    right:0px;
+    left:0px; 
+    width: 100%;
+    bottom:580px;  
+   
+    padding:0px;
+    z-index:50;
+     animation: colorRotate 2.5s linear 0s infinite;
+  }
+  @keyframes colorRotate {
+    from {
+     background-color: #00d8ff;
+    }
+    10% {
+      background-color: #00ff31;
+    }
+    50% {
+      background-color: #ffce00;
+    }
+    75% {
+     background-color: #ff3333;
+    }
+    100% {
+      background-color: #ff66f3;
+    }
+      }}
+  
